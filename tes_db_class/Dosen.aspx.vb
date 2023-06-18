@@ -7,7 +7,7 @@ Public Class Dosen
         Dim conn As MySqlConnection = New MySqlConnection("server=localhost;user=root;pwd=;database=dbkeluhan")
         Dim dt As New DataTable
         Dim mydata As MySqlDataAdapter
-        Dim query = "SELECT idlaporan as 'ID Laporan', nama AS 'Nama Pelapor', nohp AS 'No HP Pelapor', namabidang AS 'Bidang', Tanggal, laporan FROM laporan_keluhan INNER JOIN bidang ON laporan_keluhan.idbidang = bidang.idbidang INNER JOIN akun ON laporan_keluhan.idakun_pelapor = akun.idakun INNER JOIN dosen ON akun.idakun = dosen.idakun"
+        Dim query = "SELECT idlaporan as 'ID Laporan', nama AS 'Nama Pelapor',namaprodi as 'Nama Prodi', nohp AS 'No HP Pelapor', namabidang AS 'Bidang', Tanggal, laporan FROM laporan_keluhan INNER JOIN bidang ON laporan_keluhan.idbidang = bidang.idbidang INNER JOIN akun ON laporan_keluhan.idakun_pelapor = akun.idakun INNER JOIN dosen ON akun.idakun = dosen.idakun INNER JOIN prodi ON dosen.idprodi = prodi.idprodi;"
 
         Try
             conn.Open()
