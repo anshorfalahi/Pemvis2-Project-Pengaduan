@@ -55,7 +55,115 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:tes_db_class.Akun._btnAkunDosen">
+<summary>
+btnAkunDosen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.Akun._btnAkunMahasiswa">
+<summary>
+btnAkunMahasiswa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.Akun._btnAkunStaff">
+<summary>
+btnAkunStaff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:tes_db_class.Akun._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunDosen._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunDosen._GV">
+<summary>
+GV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunDosen._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunMahasiswa._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunMahasiswa._GV">
+<summary>
+GV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunMahasiswa._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunStaff._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunStaff._GV">
+<summary>
+GV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.AkunStaff._btnBack">
 <summary>
 btnBack control.
 </summary>
@@ -235,24 +343,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:tes_db_class.WebForm1._btnLevel">
-<summary>
-btnLevel control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:tes_db_class.WebForm1._btnAkun">
-<summary>
-btnAkun control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:tes_db_class.WebForm1._btnDosen">
 <summary>
 btnDosen control.
@@ -274,6 +364,24 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:tes_db_class.WebForm1._btnStaf">
 <summary>
 btnStaf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.WebForm1._btnLevel">
+<summary>
+btnLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:tes_db_class.WebForm1._btnAkun">
+<summary>
+btnAkun control.
 </summary>
 <remarks>
 Auto-generated field.

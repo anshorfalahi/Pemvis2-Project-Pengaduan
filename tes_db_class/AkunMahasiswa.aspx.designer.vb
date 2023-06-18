@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Akun
+Partial Public Class AkunMahasiswa
 
     '''<summary>
     '''form2 control.
@@ -30,33 +30,6 @@ Partial Public Class Akun
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents GV As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''btnAkunDosen control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnAkunDosen As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''btnAkunMahasiswa control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnAkunMahasiswa As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''btnAkunStaff control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnAkunStaff As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''btnBack control.

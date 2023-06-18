@@ -18,12 +18,18 @@
             <p class="auto-style1">
                 Laporan Keluhan:</p>
             <p class="auto-style1">
-                <asp:Button ID="btnLevel" runat="server" Text="Level Akun" />
-            &nbsp;<asp:Button ID="btnAkun" runat="server" Text="Akun" />
 &nbsp;<asp:Button ID="btnDosen" runat="server" Text="Dosen" />
                 &nbsp;<asp:Button ID="btnMahasiswa" runat="server" Text="Mahasiswa" />
                 &nbsp;<asp:Button ID="btnStaf" runat="server" Text="Staf" />
-            &nbsp;<asp:Button ID="btnBidang" runat="server" Text="Bidang" />
+            </p>
+            <p class="auto-style1">
+                &nbsp;</p>
+            <p class="auto-style1">
+                Lainnya:</p>
+            <p class="auto-style1">
+                <asp:Button ID="btnLevel" runat="server" Text="Level Akun" />
+            &nbsp;<asp:Button ID="btnAkun" runat="server" Text="Akun" />
+&nbsp;<asp:Button ID="btnBidang" runat="server" Text="Jenis Bidang" />
             &nbsp;<asp:Button ID="btnProdi" runat="server" Text="Prodi" />
             </p>
         </div>

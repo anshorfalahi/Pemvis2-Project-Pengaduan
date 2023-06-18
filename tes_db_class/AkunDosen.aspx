@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Akun.aspx.vb" Inherits="tes_db_class.Akun" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="AkunDosen.aspx.vb" Inherits="tes_db_class.AkunDosen" %>
 
 <!DOCTYPE html>
 
@@ -16,18 +16,13 @@
         <div>
             <h1 class="auto-style1">APLIKASI PENGADUAN KELUHAN POLITALA</h1>
             <p class="auto-style1">
-                <strong>Data Akun:</strong></p>
+                <strong>Detail Dosen:</strong></p>
             <p>
                 <asp:GridView ID="GV" runat="server" HorizontalAlign="Center" CellPadding="5">
                 </asp:GridView>
             </p>
             <p class="auto-style1">
-                <asp:Button ID="btnAkunDosen" runat="server" Text="Akun Dosen" style="height: 26px" />
-            &nbsp;<asp:Button ID="btnAkunMahasiswa" runat="server" Text="Akun Mahasiswa" style="height: 26px" />
-            &nbsp;<asp:Button ID="btnAkunStaff" runat="server" Text="Akun Staff" style="height: 26px" />
-            </p>
-            <p class="auto-style1">
-                <asp:Button ID="btnBack" runat="server" Text="Back" style="height: 26px" />
+                <asp:Button ID="btnBack" runat="server" Text="Back" />
             </p>
         </div>
     </form>

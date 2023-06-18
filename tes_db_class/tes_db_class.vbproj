@@ -95,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Akun.aspx" />
+    <Content Include="AkunDosen.aspx" />
+    <Content Include="AkunMahasiswa.aspx" />
+    <Content Include="AkunStaff.aspx" />
     <Content Include="Bidang.aspx" />
     <Content Include="Dosen.aspx" />
     <Content Include="level.aspx" />
@@ -110,6 +113,27 @@
     </Compile>
     <Compile Include="Akun.aspx.vb">
       <DependentUpon>Akun.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AkunDosen.aspx.designer.vb">
+      <DependentUpon>AkunDosen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AkunDosen.aspx.vb">
+      <DependentUpon>AkunDosen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AkunMahasiswa.aspx.designer.vb">
+      <DependentUpon>AkunMahasiswa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AkunMahasiswa.aspx.vb">
+      <DependentUpon>AkunMahasiswa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AkunStaff.aspx.designer.vb">
+      <DependentUpon>AkunStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AkunStaff.aspx.vb">
+      <DependentUpon>AkunStaff.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Bidang.aspx.designer.vb">

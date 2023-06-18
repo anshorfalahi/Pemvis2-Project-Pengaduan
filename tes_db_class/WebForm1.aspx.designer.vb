@@ -23,24 +23,6 @@ Partial Public Class WebForm1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''btnLevel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnLevel As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''btnAkun control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnAkun As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''btnDosen control.
     '''</summary>
     '''<remarks>
@@ -66,6 +48,24 @@ Partial Public Class WebForm1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnStaf As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnLevel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnLevel As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnAkun control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnAkun As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''btnBidang control.

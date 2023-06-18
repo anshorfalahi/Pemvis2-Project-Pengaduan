@@ -1,14 +1,25 @@
 ﻿Imports MySql.Data.MySqlClient
 
-Public Class Akun
+Public Class AkunMahasiswa
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim conn As MySqlConnection = New MySqlConnection("server=localhost;user=root;pwd=;database=dbkeluhan")
         Dim dt As New DataTable
         Dim mydata As MySqlDataAdapter
-        Dim query = "SELECT akun.idakun AS 'ID Akun', akun.username as 'USERNAME', akun.password as 'PASSWORD', level.namalevel AS 'Nama Level' FROM akun INNER JOIN level ON akun.idlevel = level.idlevel"
-
+        Dim query = "SELECT 
+                        mahasiswa.nim AS 'NIM',
+                        mahasiswa.idakun as 'ID Akun', 
+                        mahasiswa.nama as Nama, 
+                        mahasiswa.jeniskelamin AS 'Jenis Kelamin', 
+                        mahasiswa.alamat as Alamat, 
+                        mahasiswa.nohp as 'NO HP',  
+                        mahasiswa.foto as 'Foto',
+                        mahasiswa.email as 'Email',
+                        prodi.namaprodi as 'Nama Prodi'
+                    FROM 
+                        mahasiswa 
+                        INNER JOIN prodi ON mahasiswa.idprodi = prodi.idprodi"
         Try
             conn.Open()
             mydata = New MySqlDataAdapter(query, conn)
@@ -26,15 +37,6 @@ Public Class Akun
     End Sub
 
     Protected Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        Response.Redirect("WebForm1.aspx")
-    End Sub
-    Protected Sub btnAkunDosen_Click(sender As Object, e As EventArgs) Handles btnAkunDosen.Click
-        Response.Redirect("AkunDosen.aspx")
-    End Sub
-    Protected Sub btnAkunMahasiswa_Click(sender As Object, e As EventArgs) Handles btnAkunMahasiswa.Click
-        Response.Redirect("AkunMahasiswa.aspx")
-    End Sub
-    Protected Sub btnAkunStaff_Click(sender As Object, e As EventArgs) Handles btnAkunStaff.Click
-        Response.Redirect("AkunStaff.aspx")
+        Response.Redirect("Akun.aspx")
     End Sub
 End Class
