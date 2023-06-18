@@ -94,13 +94,31 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Akun.aspx" />
+    <Content Include="Bidang.aspx" />
     <Content Include="Dosen.aspx" />
+    <Content Include="level.aspx" />
     <Content Include="Mahasiswa.aspx" />
+    <Content Include="Prodi.aspx" />
     <Content Include="Staff_bidang.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Akun.aspx.designer.vb">
+      <DependentUpon>Akun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Akun.aspx.vb">
+      <DependentUpon>Akun.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Bidang.aspx.designer.vb">
+      <DependentUpon>Bidang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bidang.aspx.vb">
+      <DependentUpon>Bidang.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Dosen.aspx.designer.vb">
       <DependentUpon>Dosen.aspx</DependentUpon>
     </Compile>
@@ -109,6 +127,13 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="KoneksiDB.vb" />
+    <Compile Include="level.aspx.designer.vb">
+      <DependentUpon>level.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="level.aspx.vb">
+      <DependentUpon>level.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Mahasiswa.aspx.designer.vb">
       <DependentUpon>Mahasiswa.aspx</DependentUpon>
     </Compile>
@@ -134,6 +159,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Prodi.aspx.designer.vb">
+      <DependentUpon>Prodi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prodi.aspx.vb">
+      <DependentUpon>Prodi.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Staff_bidang.aspx.designer.vb">
       <DependentUpon>Staff_bidang.aspx</DependentUpon>
